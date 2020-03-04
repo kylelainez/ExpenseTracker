@@ -1,0 +1,73 @@
+body{
+    background-color: azure;
+    color: black;
+}
+
+
+
+#rectangle{
+    position: fixed;
+    align-self: center;
+    left: 5vw;
+    top: 5vh;
+    width: 90vw;
+    height: 90vh;
+
+    background: #E7DFDF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#walletRectangle{
+    position: absolute;
+    left: 2vw;
+    top: 10vh;  
+    width: 12rem;
+    height: 2rem;
+    padding-bottom: 1rem    ;
+    background: #F4F2FC;
+}
+
+#rectangle-2{
+    position: absolute; 
+    left: 2vw;
+    height: 40vh;
+    width: 86vw;
+    bottom: 5vh;
+    overflow: auto;
+
+    background: #F4F2FC;
+
+}
+
+#wallet{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1vw;
+    padding-top: 0%;
+    align-items: center;
+
+}
+
+#addButtons{
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+}
+
+table#table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
